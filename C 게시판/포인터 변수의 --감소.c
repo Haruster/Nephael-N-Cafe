@@ -1,4 +1,4 @@
-//포인트변수의 --감소
+//포인터변수의 --감소
 #include<stdio.h>
 void main(void)
 {
