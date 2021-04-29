@@ -12,4 +12,5 @@ void hanoi(int n, char from, char to, char via) {
 int main(void) {
     int n;
     scanf("%d", &n);
-    hanoi(n, 'a','
+    hanoi(n, 'a','b','c');
+}
