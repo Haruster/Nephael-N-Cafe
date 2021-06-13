@@ -8,9 +8,9 @@ namespace fs = experimental::filesystem;
 int main()
 {
     if (fs::exists("c:\\Target") == true)
-        cout << "������ �����մϴ�" << endl;
+        cout << "폴더가 존재합니다" << endl;
     else
-        cout << "������ �����ϴ�" << endl;
+        cout << "폴더가 존재하지 않습니다." << endl;
 
     return 0;
 }
